@@ -1,3 +1,4 @@
+# can use the S3ObjectVersionParam to set the s3 version id, when you update the lambda file
 Parameters:
   S3BucketParam:
     Type: String

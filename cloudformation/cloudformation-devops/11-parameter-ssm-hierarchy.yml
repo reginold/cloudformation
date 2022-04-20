@@ -1,3 +1,4 @@
+# this is better than the parameter somehow. it can pull the newest ami id.
 # read more at: https://docs.aws.amazon.com/systems-manager/latest/userguide/parameter-store-public-parameters.html
 
 
