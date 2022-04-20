@@ -1,3 +1,4 @@
+# Attention: create: db--> ec2  delete: ec2-->db
 AWSTemplateFormatVersion: '2010-09-09'
 Mappings:
   AWSRegionArch2AMI:

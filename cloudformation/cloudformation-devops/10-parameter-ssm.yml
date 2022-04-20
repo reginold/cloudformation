@@ -1,6 +1,7 @@
 # this will pickup the latest value of the parameter every time the template is run
 # the parameter value must be the Key for that Parameter. Then CFN will retrieve the value
 # this does not support SecureString SSM Parameter types
+# so you can update the AMI_ID value in SSM so that you can update it using stack IaC.
 Parameters:
   InstanceType:
     Type: 'AWS::SSM::Parameter::Value<String>'
